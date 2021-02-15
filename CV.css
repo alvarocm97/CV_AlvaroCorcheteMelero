@@ -1,0 +1,129 @@
+html{
+    background-color: white;
+}
+body {
+    width: 1000px;
+    background-color: beige;
+}
+.titulo{
+    margin-left: 5px;
+    margin-top: 5px;
+    padding-top: 3px;
+}
+.encabezado{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+.graduacion{
+    margin-right: 5px;
+    display: block;
+    padding-left: 500px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    height: 250px;
+    width: 175px;       
+}
+.info{
+    width: 350px;
+    margin-left: 2px;
+    padding-left: 0px;
+    list-style: none;
+}    
+.arroba{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.telefono{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.linkedin{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.calendario{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.localizacion{
+    padding-right: 15px;
+    height: 20px;
+    width: 20px;
+}
+.parrafo1{
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    border-bottom: solid;
+}
+.columnas{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+}
+.columna1{  
+    margin-left: 5px;
+    width: 700px;    
+}
+.columna2{
+    padding-left: 75px;
+    padding-right: 0px;
+    width: 700px;
+    border-left: solid;
+}
+.herramientas{
+    margin-top: 0px;
+}
+.idiomas{
+    margin-top: 0px;
+}
+.educacion{
+    margin-top: 0px;
+}
+.certificaciones{
+    margin-top: 0px;
+}
+.formacion{
+    margin-top: 0px;
+}
+.diagrama{
+    display: flex;
+    flex-direction: row;       
+}
+.diagrama1{
+    display: flex;
+    flex-direction: row;    
+}
+.diagrama2{
+    display: flex;
+    flex-direction: row;    
+}
+.diagrama3{
+    display: flex;
+    flex-direction: row;    
+}
+.grafico {
+    height: 32px;
+    position: relative;    
+    width: 200px;
+    border: 1px solid #B1D632;
+    padding: 2px;    
+}
+.grafico .barra {
+    display: block;
+    position: relative;
+    background: #B1D632;
+    text-align: center;
+    color: #333;
+    height: 2em;
+    line-height: 2em;
+}
+.grafico .barra span {
+    position: absolute; left: 1em;
+}
