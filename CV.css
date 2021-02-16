@@ -228,78 +228,26 @@ i.fas.fa-map-marker-alt::before{
 		transition:all 500ms ease;
         transform: scale(2);
 }
-@media all and (min-width: 320px){
-    i.fas.fa-envelope::before{
-		display: inline-block;
-		color: #db4a39;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+@media all and (max-width: 320px){
+    i.fas.fa-envelope::before{		
         transform: scale(1);
 }
-i.fab.fa-linkedin::before{
-		display: inline-block;
-		color: #0e76a8;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.fab.fa-linkedin::before{		
         transform: scale(1);
 }
-i.fab.fa-twitter::before{
-		display: inline-block;
-		color: #00abf0;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.fab.fa-twitter::before{		
         transform: scale(1);
 }
-i.fab.fa-facebook-square::before{
-		display: inline-block;
-		color: #3b5998;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.fab.fa-facebook-square::before{		
         transform: scale(1);
 }
-i.fas.fa-mobile-alt::before{
-		display: inline-block;
-		color: #828282;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.fas.fa-mobile-alt::before{		
         transform: scale(1);
 }
-i.far.fa-calendar-alt::before{
-		display: inline-block;
-		color: #51D1F6;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.far.fa-calendar-alt::before{		
         transform: scale(1);
 }
-i.fas.fa-map-marker-alt::before{
-		display: inline-block;
-		color: #FFA500;	
-		padding: 10px 15px;
-		text-decoration: none;
-		-webkit-transition:all 500ms ease;
-		-o-transition:all 500ms ease;
-		transition:all 500ms ease;
+i.fas.fa-map-marker-alt::before{		
         transform: scale(1);
-};
-@media all and (min-width: 768px){
-};
-@media all and (min-width: 1280px){        
-};
+}
+}
