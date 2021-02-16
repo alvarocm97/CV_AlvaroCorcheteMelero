@@ -1,11 +1,10 @@
-@media all and (min-width: 320px){
 html{
     background-color: rgb(255, 255, 255);
 }
 body {
     margin: auto;
     width: 1000px;
-    background-color:rgb(255, 254, 242);
+    background-color:#e3f2fd;
 }
 .top{
     background-color: #c6e5b1;
@@ -167,6 +166,77 @@ i.fas.fa-envelope::before{
 		-webkit-transition:all 500ms ease;
 		-o-transition:all 500ms ease;
 		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.fab.fa-linkedin::before{
+		display: inline-block;
+		color: #0e76a8;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.fab.fa-twitter::before{
+		display: inline-block;
+		color: #00abf0;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.fab.fa-facebook-square::before{
+		display: inline-block;
+		color: #3b5998;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.fas.fa-mobile-alt::before{
+		display: inline-block;
+		color: #828282;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.far.fa-calendar-alt::before{
+		display: inline-block;
+		color: #51D1F6;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+i.fas.fa-map-marker-alt::before{
+		display: inline-block;
+		color: #FFA500;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+        transform: scale(2);
+}
+@media all and (min-width: 320px){
+    i.fas.fa-envelope::before{
+		display: inline-block;
+		color: #db4a39;	
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
         transform: scale(1);
 }
 i.fab.fa-linkedin::before{
@@ -228,469 +298,8 @@ i.fas.fa-map-marker-alt::before{
 		-o-transition:all 500ms ease;
 		transition:all 500ms ease;
         transform: scale(1);
-}
 };
 @media all and (min-width: 768px){
-    html{
-        background-color: rgb(255, 255, 255);
-    }
-    body {
-        margin: auto;
-        width: 1000px;
-        background-color:rgb(255, 254, 242);
-    }
-    .top{
-        background-color: #c6e5b1;
-    }
-    .titulo{
-        margin-left: 15px;
-        margin-top: 5px;
-        padding-top: 15px;
-    }
-    .encabezado{
-        display: flex;
-        align-content:space-between;
-        flex-direction: row;
-        text-align: left;
-    }
-    .graduacion{
-        margin-right: 95px;
-        display: block;
-        margin-left: 325px;
-        margin-bottom: 15px;    
-        height: 300px;
-        width: 225px;
-        border:solid;
-        border-color: white;
-                     
-    }
-    .info{
-        height: 200px;
-        width: 350px;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        margin-left: 15px;
-        padding-left: 0px;
-        list-style: none;
-    }    
-    .arroba{    
-        padding-right: 15px;
-        height: 20px;
-        width: 20px;
-    }
-    .telefono{
-        padding-right: 15px;
-        height: 20px;
-        width: 20px;
-    }
-    .linkedin{
-        padding-right: 15px;
-        height: 20px;
-        width: 20px;
-        color: #0e76a8;
-    }
-    .calendario{
-        padding-right: 15px;
-        height: 20px;
-        width: 20px;
-    }
-    .localizacion{
-        padding-right: 15px;
-        height: 20px;
-        width: 20px;
-    }
-    .parrafo1{
-        margin-right: 15px;
-        margin-left: 15px;
-        padding-right: 0px;
-        padding-bottom: 25px;
-        border-bottom: solid;
-        padding-top: 25px;
-    }
-    .columnas{
-        display: flex;
-        align-content: space-between;
-        flex-direction: row;
-    }
-    .columna1{  
-        margin-left: 15px;
-        width: 700px; 
-        margin-right: 80px;   
-    }
-    .columna2{
-        flex-direction: column;
-        margin-right: 15px;
-        padding-left: 40px;
-        padding-right: 0px;
-        width: 700px;
-        border-left: solid;
-    }
-    .herramientas{
-        margin-top: 18,72px;
-    }
-    .idiomas{
-        margin-top: 18.72px;
-    }
-    .educacion{
-        margin-top: 0px;
-    }
-    .certificaciones{
-        margin-top: 0px;
-    }
-    .formacion{
-        margin-top: 0px;
-    }
-    .diagrama{
-        display: flex;
-        flex-direction: row;       
-    }
-    .diagrama1{
-        display: flex;
-        flex-direction: row;    
-    }
-    .diagrama2{
-        display: flex;
-        flex-direction: row;    
-    }
-    .diagrama3{
-        display: flex;
-        flex-direction: row;    
-    }
-    .grafico {
-        height: 20px;
-        position: relative;    
-        width: 200px;
-        border: 1px solid #0044ff;
-        padding: 2px;    
-    }
-    .grafico .barra {
-        display: block;
-        position: relative;
-        background: #4193ff;
-        text-align: center;
-        color: #333;
-        height: 20px;
-        line-height: 2em;
-    }
-    .grafico .barra span {
-        position: absolute; left: 1em;
-    }
-    .oculto{
-        display: none;
-    }
-    .social {
-        display: flex;
-        flex-direction: row;
-        justify-content: center; 
-        background-color: #c6e5b1;
-        border-top: solid;
-        margin-top: 25px;
-    }
-     
-    .social ul {
-            list-style: none;
-    }
-     
-    i.fas.fa-envelope::before{
-            display: inline-block;
-            color: #db4a39;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.fab.fa-linkedin::before{
-            display: inline-block;
-            color: #0e76a8;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.fab.fa-twitter::before{
-            display: inline-block;
-            color: #00abf0;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.fab.fa-facebook-square::before{
-            display: inline-block;
-            color: #3b5998;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.fas.fa-mobile-alt::before{
-            display: inline-block;
-            color: #828282;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.far.fa-calendar-alt::before{
-            display: inline-block;
-            color: #51D1F6;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    i.fas.fa-map-marker-alt::before{
-            display: inline-block;
-            color: #FFA500;	
-            padding: 10px 15px;
-            text-decoration: none;
-            -webkit-transition:all 500ms ease;
-            -o-transition:all 500ms ease;
-            transition:all 500ms ease;
-            transform: scale(2);
-    }
-    };
-    @media all and (min-width: 1280px){
-        html{
-            background-color: rgb(255, 255, 255);
-        }
-        body {
-            margin: auto;
-            width: 1000px;
-            background-color:rgb(255, 254, 242);
-        }
-        .top{
-            background-color: #c6e5b1;
-        }
-        .titulo{
-            margin-left: 15px;
-            margin-top: 5px;
-            padding-top: 15px;
-        }
-        .encabezado{
-            display: flex;
-            align-content:space-between;
-            flex-direction: row;
-            text-align: left;
-        }
-        .graduacion{
-            margin-right: 95px;
-            display: block;
-            margin-left: 325px;
-            margin-bottom: 15px;    
-            height: 300px;
-            width: 225px;
-            border:solid;
-            border-color: white;
-                         
-        }
-        .info{
-            height: 200px;
-            width: 350px;
-            margin-bottom: 15px;
-            margin-top: 15px;
-            margin-left: 15px;
-            padding-left: 0px;
-            list-style: none;
-        }    
-        .arroba{    
-            padding-right: 15px;
-            height: 20px;
-            width: 20px;
-        }
-        .telefono{
-            padding-right: 15px;
-            height: 20px;
-            width: 20px;
-        }
-        .linkedin{
-            padding-right: 15px;
-            height: 20px;
-            width: 20px;
-            color: #0e76a8;
-        }
-        .calendario{
-            padding-right: 15px;
-            height: 20px;
-            width: 20px;
-        }
-        .localizacion{
-            padding-right: 15px;
-            height: 20px;
-            width: 20px;
-        }
-        .parrafo1{
-            margin-right: 15px;
-            margin-left: 15px;
-            padding-right: 0px;
-            padding-bottom: 25px;
-            border-bottom: solid;
-            padding-top: 25px;
-        }
-        .columnas{
-            display: flex;
-            align-content: space-between;
-            flex-direction: row;
-        }
-        .columna1{  
-            margin-left: 15px;
-            width: 700px; 
-            margin-right: 80px;   
-        }
-        .columna2{
-            flex-direction: column;
-            margin-right: 15px;
-            padding-left: 40px;
-            padding-right: 0px;
-            width: 700px;
-            border-left: solid;
-        }
-        .herramientas{
-            margin-top: 18,72px;
-        }
-        .idiomas{
-            margin-top: 18.72px;
-        }
-        .educacion{
-            margin-top: 0px;
-        }
-        .certificaciones{
-            margin-top: 0px;
-        }
-        .formacion{
-            margin-top: 0px;
-        }
-        .diagrama{
-            display: flex;
-            flex-direction: row;       
-        }
-        .diagrama1{
-            display: flex;
-            flex-direction: row;    
-        }
-        .diagrama2{
-            display: flex;
-            flex-direction: row;    
-        }
-        .diagrama3{
-            display: flex;
-            flex-direction: row;    
-        }
-        .grafico {
-            height: 20px;
-            position: relative;    
-            width: 200px;
-            border: 1px solid #0044ff;
-            padding: 2px;    
-        }
-        .grafico .barra {
-            display: block;
-            position: relative;
-            background: #4193ff;
-            text-align: center;
-            color: #333;
-            height: 20px;
-            line-height: 2em;
-        }
-        .grafico .barra span {
-            position: absolute; left: 1em;
-        }
-        .oculto{
-            display: none;
-        }
-        .social {
-            display: flex;
-            flex-direction: row;
-            justify-content: center; 
-            background-color: #c6e5b1;
-            border-top: solid;
-            margin-top: 25px;
-        }
-         
-        .social ul {
-                list-style: none;
-        }
-         
-        i.fas.fa-envelope::before{
-                display: inline-block;
-                color: #db4a39;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.fab.fa-linkedin::before{
-                display: inline-block;
-                color: #0e76a8;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.fab.fa-twitter::before{
-                display: inline-block;
-                color: #00abf0;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.fab.fa-facebook-square::before{
-                display: inline-block;
-                color: #3b5998;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.fas.fa-mobile-alt::before{
-                display: inline-block;
-                color: #828282;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.far.fa-calendar-alt::before{
-                display: inline-block;
-                color: #51D1F6;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        i.fas.fa-map-marker-alt::before{
-                display: inline-block;
-                color: #FFA500;	
-                padding: 10px 15px;
-                text-decoration: none;
-                -webkit-transition:all 500ms ease;
-                -o-transition:all 500ms ease;
-                transition:all 500ms ease;
-                transform: scale(2);
-        }
-        };
+};
+@media all and (min-width: 1280px){        
+};
