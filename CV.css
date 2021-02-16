@@ -79,12 +79,13 @@ body {
 }
 .columna1{  
     margin-left: 15px;
-    width: 700px;    
+    width: 700px; 
+    margin-right: 80px;   
 }
 .columna2{
     flex-direction: column;
     margin-right: 15px;
-    padding-left: 75px;
+    padding-left: 40px;
     padding-right: 0px;
     width: 700px;
     border-left: solid;
@@ -143,10 +144,12 @@ body {
     display: none;
 }
 .social {
-	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
-	bottom: 0; /* Establecemos la barra en la izquierda */
-	/*top: 200px; Bajamos la barra 200px de arriba a abajo */
-	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+	display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: #c6e5b1;
+    border-top: solid;
+    margin-top: 25px;
 }
  
 .social ul {
