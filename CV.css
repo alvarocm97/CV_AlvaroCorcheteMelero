@@ -1,36 +1,46 @@
 html{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 body {
+    margin: auto;
     width: 1000px;
-    background-color: beige;
+    background-color:rgb(255, 254, 242);
+}
+.top{
+    background-color: #c6e5b1;
 }
 .titulo{
-    margin-left: 5px;
+    margin-left: 15px;
     margin-top: 5px;
-    padding-top: 3px;
+    padding-top: 15px;
 }
 .encabezado{
     display: flex;
-    align-content: space-between;
+    align-content:space-between;
     flex-direction: row;
+    text-align: left;
 }
 .graduacion{
-    margin-right: 5px;
+    margin-right: 95px;
     display: block;
-    padding-left: 500px;
-    padding-bottom: 5px;
-    padding-right: 10px;
+    margin-left: 400px;
+    margin-bottom: 15px;    
     height: 250px;
-    width: 175px;       
+    width: 175px;
+    border:solid;
+    border-color: white;
+                 
 }
 .info{
+    height: 200px;
     width: 350px;
-    margin-left: 2px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
     padding-left: 0px;
     list-style: none;
 }    
-.arroba{
+.arroba{    
     padding-right: 15px;
     height: 20px;
     width: 20px;
@@ -56,8 +66,8 @@ body {
     width: 20px;
 }
 .parrafo1{
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 15px;
+    margin-left: 15px;
     padding-right: 0px;
     padding-bottom: 25px;
     border-bottom: solid;
@@ -68,20 +78,22 @@ body {
     flex-direction: row;
 }
 .columna1{  
-    margin-left: 5px;
+    margin-left: 15px;
     width: 700px;    
 }
 .columna2{
+    flex-direction: column;
+    margin-right: 15px;
     padding-left: 75px;
     padding-right: 0px;
     width: 700px;
     border-left: solid;
 }
 .herramientas{
-    margin-top: 0px;
+    margin-top: 18,72px;
 }
 .idiomas{
-    margin-top: 0px;
+    margin-top: 18.72px;
 }
 .educacion{
     margin-top: 0px;
@@ -112,13 +124,13 @@ body {
     height: 32px;
     position: relative;    
     width: 200px;
-    border: 1px solid #B1D632;
+    border: 1px solid #0044ff;
     padding: 2px;    
 }
 .grafico .barra {
     display: block;
     position: relative;
-    background: #B1D632;
+    background: #4193ff;
     text-align: center;
     color: #333;
     height: 2em;
@@ -126,4 +138,38 @@ body {
 }
 .grafico .barra span {
     position: absolute; left: 1em;
+}
+.oculto{
+    display: none;
+}
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	bottom: 0; /* Establecemos la barra en la izquierda */
+	/*top: 200px; Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.social ul {
+		list-style: none;
+}
+ 
+.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 15px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease;
+}
+ 
+.social ul li .icon-facebook {background:#3b5998;} 
+.social ul li .icon-twitter {background: #00abf0;}
+.social ul li .icon-linkedin {background: #0e76a8;}
+.social ul li .icon-mail {background: #666666;}
+ 
+.social ul li a:hover {
+		background: #000; 
+		padding: 10px 30px; 
 }

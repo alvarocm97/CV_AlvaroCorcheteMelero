@@ -6,12 +6,13 @@
         <link rel="stylesheet" href="CV.css">
     </head>
     <body>
-        <h1 class="titulo">ÁLVARO CORCHETE MELERO</h1>
+    <div class="top">
+        <h1 class="titulo">ÁLVARO CORCHETE MELERO</h1><br>
         <div class="encabezado">        
         <ul class="info">
-            <li><img class="arroba" src="descarga.png" alt="Arroba">alvarocorchete@hotmail.com</li><br>
+            <br><li><img class="arroba" src="arroba1.png" alt="Arroba">alvarocorchete@hotmail.com</li><br>
             <li><img class="telefono" src="images.png" alt="Teléfono">(+34) 689 938 742</li><br>
-            <li><img class="linkedin" src="images (1).png" alt="Linkedin"><a>www.linkedin.com/in/alvarocorchetemelero</a></li><br>
+            <li><img class="linkedin" src="in.png" alt="Linkedin"><a>www.linkedin.com/in/alvarocorchetemelero</a></li><br>
             <li><img class="calendario" src="descarga (1).png" alt="Calendario">20/12/1997</li><br>
             <li><img class="localizacion" src="descarga (2).png" alt="Localización">Nacionalidad: española</li>
         </ul>
@@ -19,10 +20,12 @@
         </div>
         <div class="encabezado1">
         <p class="parrafo1">Actualmente como estudiante de máster, busco compaginar los estudios con una experiencia laboral adicional para adquirir nuevas aptitudes y complementar mi formación académica. La experiencia laboral obtenida hasta el momento y mi actitud proactiva me permite adaptarme con facilidad a entornos nuevos de trabajo.</p>        
-        </div>    
+        </div>
+    </div>    
         <div class="columnas">
-            <div class="columna1">
-                <h3>EXPERIENCIA LABORAL</h3>                
+            <div class="columna1">                
+                <h3>EXPERIENCIA LABORAL <button id='boton'><img src="triangle.png" alt="triangulo" style="height: 10px; width: 10px;"></button></h3>
+                <div id="desplegable" class="oculto">             
                 <p style="margin: 0px;"><b>FAUNIA</b></p>
                 <p style="margin-bottom: 10px;margin-top: 10px;font-size: 15px;">Responsable de la conservación del ecosistema – Prácticas</p>
                 <p style="margin-top: 3px; font-size: 11px;">Ago 2018 – Dic 2018</p>
@@ -33,7 +36,9 @@
                     <li>Enlace con clínica veterinaria.</li>
                     <li>Calificación: 10/10</li>
                 </ul><br>
-                <h3 class="educacion">EDUCACIÓN</h3>
+                </div>                
+                <h3 class="educacion">EDUCACIÓN <button id='boton1'><img src="triangle.png" alt="triangulo" style="height: 10px; width: 10px;"></button></h3>
+                <div id="desplegable1" class="oculto">
                 <p><b>Máster en Sistemas de Información Geográfica (SIG)</b></p>
                 <p style="font-size: 15px;">Esri España, Madrid (España)</p>
                 <p style="font-size: 11px;">Oct 2020 – presente</p><br>
@@ -43,30 +48,35 @@
                 <p><b>Grado en Ciencias Ambientales</b></p>
                 <p style="font-size: 15px;">Universidad Autónoma de Madrid, Madrid (España)</p>
                 <p style="font-size: 11px;">Sep 2015 - Jun 2019</p><br>
-                <h3 class="certificaciones">CERTIFICACIONES</h3>
+                </div>                
+                <h3 class="certificaciones">CERTIFICACIONES <button id='boton2'><img src="triangle.png" alt="triangulo" style="height: 10px; width: 10px;"></button></h3>
+                <div id="desplegable2" class="oculto">
                 <p><b>Piloto profesional de drones – AESA (Mavic 2 Pro)</b></p>
                 <p style="font-size: 15px;">Aerocámaras Especialistas en Drones, Madrid (España)</p>
                 <p style="font-size: 11px;">Expedición: Feb 2020 – Sin fecha de vencimiento</p><br>
                 <p><b>Gestión de Especies y Espacios Naturales Protegidos con SIG</b></p>
                 <p style="font-size: 15px;">Asociación Geoinnova, Madrid (España)</p>
                 <p style="font-size: 11px;">Expedición: Ene 2020 – Sin fecha de vencimiento</p><br>
-                <h3 class="formacion">FORMACIÓN</h3>
+                </div>                
+                <h3 class="formacion">FORMACIÓN <button id='boton3'><img src="triangle.png" alt="triangulo" style="height: 10px; width: 10px;"></button></h3>
+                <div id="desplegable3" class="oculto">
                 <p><b>Taller de Rapaces Nocturnas y sus Restos</b></p>
                 <p style="font-size: 15px;">Universidad Autónoma de Madrid, Madrid (España)</p>
                 <p style="font-size: 11px;">Jun 2018</p><br> 
                 <p><b>Curso en Gestión de Acuarios y Conservación Marina</b></p>
                 <p style="font-size: 15px;">Zoo-Aquarium de Madrid, Madrid (España)</p>
-                <p style="font-size: 11px;">Abr 2018</p><br>               
-            </div>
-            <div class="columna2">                
+                <p style="font-size: 11px;">Abr 2018</p><br> 
                 <p><b>Curso en Manejo, Mantenimiento y Conservación de Aves</b></p>
                 <p style="font-size: 15px;">Zoo-Aquarium de Madrid, Madrid (España)</p>
                 <p style="font-size: 11px;">Mar 2018</p><br>
+                </div>              
+            </div>
+            <div class="columna2">     
                 <h3 class="idiomas">IDIOMAS</h3>
                 <ul class="idiomas">
                     <li>Español: Nativo</li><br>
                     <li>Inglés: B2 (Certificado)</li>
-                </ul><br>
+                </ul><br><br>
                 <h3 class="herramientas">HERRAMIENTAS</h3>
                 <div class="diagrama">
                     <p style="padding-right: 100px;">ARCGIS</p>
@@ -83,25 +93,25 @@
                 <div class="diagrama3">
                     <p style="padding-right: 68px;">JAVASCRIPT</p>
                     <div class="grafico"><strong class="barra" style="width: 75%;"></strong></div>
-                </div>
+                </div><br><br>
                 <h3>APTITUDES & COMPETENCIAS</h3>
                 <ul>
-                    <li>Adaptación</li>
-                    <li>Planificación</li>
-                    <li>Proactivo</li>
-                    <li>Responsable</li>
-                    <li>Trabajo en equipo</li>
-                    <li>Rápido aprendizaje</li>
+                    <li>Adaptación</li><br>
+                    <li>Planificación</li><br>
+                    <li>Proactivo</li><br>
+                    <li>Responsable</li><br>
+                    <li>Trabajo en equipo</li><br>
+                    <li>Rápido aprendizaje</li><br><br>
                 </ul>
                 <h3>PROYECTOS</h3>
                 <ul>
-                    <li>Proyecto SIG: Desarrollo de una Smart City con tecnología ArcGIS</li>
-                    <li style="list-style: none;font-size: 11px;">(Esri – 2021) TFM</li><br>
-                    <li>Utilización de imágenes satelitales para caracterizar la dinámica espacio- temporal de 20 años de producción primaria en la distribución geográfica de la liebre de piornal</li>
-                    <li style="list-style: none;font-size: 11px;">(UniversidadComplutense de Madrid - 2020) TFM</li><br>
-                    <li>Efecto de metales pesados en el desarrollo ninfal de fásmidos tropicales</li>
+                    <li>Proyecto SIG: Desarrollo de una Smart City con tecnología ArcGIS</li><br>
+                    <li style="list-style: none;font-size: 11px;">(Esri – 2021) TFM</li><br><br>
+                    <li>Utilización de imágenes satelitales para caracterizar la dinámica espacio- temporal de 20 años de producción primaria en la distribución geográfica de la liebre de piornal</li><br>
+                    <li style="list-style: none;font-size: 11px;">(UniversidadComplutense de Madrid - 2020) TFM</li><br><br>
+                    <li>Efecto de metales pesados en el desarrollo ninfal de fásmidos tropicales</li><br>
                     <li style="list-style: none;font-size: 11px;">(Universidad Autónoma de Madrid
-                        - 2019) TFG</li><br>
+                        - 2019) TFG</li><br><br>
                 </ul>
                 <h3>SOBRE MI</h3>
                 <ul>
@@ -110,6 +120,16 @@
                 </ul>
             </div>
         </div>
+        <div class="social">
+            <ul>
+                <li><a href="https://www.facebook.com/CorcheteMeleroAlvaro" target="_blank" class="icon-facebook"></a></li>
+                <li><a href="https://twitter.com/10_pachi" target="_blank" class="icon-twitter"></a></li>
+                <li><a href="www.linkedin.com/in/alvarocorchetemelero" target="_blank" class="icon-linkedin"></a></li>
+                <li><a href="mailto:alvarocorchete@hotmail.com
+                    " class="icon-mail"></a></li>
+            </ul>
+        </div>
+        <script src="CV.js"></script>
     </body>
 
 </html>
